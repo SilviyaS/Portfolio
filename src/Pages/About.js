@@ -8,10 +8,10 @@ function About() {
 
                 </div>
                 <div class="col-sm">
-                <img src="mypic.png" alt="MyPic" width="300" height="300" />
+                    <img src="mypic.png" alt="MyPic" width="300" height="300" />
                     <h1 class="m-4 text-left">About Me</h1>
-                    <div class="m-4 text-left">Hello World! My full name is Shaden Hakim, also known as @ShadenCodes on Instagram. I have started my career in Software Development after graduating with a B.Sc. in Computer Engineering from the Technion, Israel in 2015. In addition, I earned an MBA from the Technion, specializing in big data and business intelligence.</div>
-                    <div class="m-4 text-left">My MBA studies provided me with a deep understanding of advanced topics such as artificial intelligence and machine learning, which have been invaluable in analyzing and interpreting complex data sets. I also had the opportunity to work on real projects and case studies, which allowed me to apply theoretical concepts to practical situations.</div>
+                    <div class="m-4 text-left">Hello World! My name is Silviya. I started my career in Software Development after graduating with a B.E. in Electronics Engineering from Anna University, Chennai in 2020. In addition, I'm Pursuing, a masters in Information Technology from Rutgers University, specializing in Software Development and business analytics.</div>
+                    <div class="m-4 text-left">My MSIT studies provided me with a deep understanding of advanced topics such as artificial intelligence and machine learning, which have been invaluable in analyzing and interpreting complex data sets. I also had the opportunity to work on real projects and case studies, which allowed me to apply theoretical concepts to practical situations.</div>
                     <div class="m-4 text-left">Throughout my experience in software development, I've had the privilege of working alongside senior developers, talented teams, and innovative startups that shaped my skillset and raised my standards for what expected of any software developer.</div>
                     <div class="m-4 text-left">I take great pleasure in coding things from scratch and enjoy the process of bringing new ideas to life. However, I never neglect the importance of keeping my code clean, maintainable, and easy to understand.</div>
                     <h1 class="m-4 text-left">My Skills</h1>
@@ -21,19 +21,19 @@ function About() {
 
                         <tbody>
                             <tr>
-                                <th scope="row">HTML</th>
+                                <td>HTML5</td>
                                 <td>CSS</td>
                                 <td>Javascript</td>
                                 <td>React</td>
                             </tr>
                             <tr>
-                                <th scope="row">Redux</th>
+                                <td>Redux</td>
                                 <td>NodeJS</td>
                                 <td>Gatsby</td>
                                 <td>Git</td>
                             </tr>
                             <tr>
-                                <th scope="row">Git & GitHub</th>
+                                <td>Git & GitHub</td>
                                 <td>VS Code</td>
                                 <td>Jira</td>
                                 <td>Postman</td>

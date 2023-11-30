@@ -1,0 +1,18 @@
+version: "3"
+services:
+  redis:
+    image: redislabs/redismod
+    restart: unless-stopped
+    ports:
+      - 6375:6379
+  redisinsight:
+    image: redislabs/redisinsight:latest
+    restart: unless-stopped
+    ports:
+      - "8005:8001"
+    volumes:
+      - redislabs:/db
+
+volumes:
+  redislabs:
+    driver: local

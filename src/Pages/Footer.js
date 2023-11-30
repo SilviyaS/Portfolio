@@ -1,10 +1,13 @@
+function Footer(){
+    return <>
+         <hr color="black"></hr>
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <div class="me-5 d-none d-lg-block">
+      <span>Created by @Silviyadev, © 2023</span>
+    </div>
 
-function Contact(){
-    return (
-        <div style={{height: "90vh"}}>
-        <h4 class = "p-4">Let's Connect!</h4>
-        <p class = "p-2">Feel free to reach out if you're looking for a developer, have a question, or just want to connect.</p>
-        <a href="https://www.linkedin.com/in/silviya-s-frontenddev/" rel="noreferrer"  target="_blank" class="me-4 text-reset">
+    <div>
+      <a href="https://www.linkedin.com/in/silviya-s-frontenddev/" rel="noreferrer"  target="_blank" class="me-4 text-reset">
       <i class="bi bi-linkedin fa-lg m-3 black-color"></i>  
       </a>
       <a href="https://github.com/SilviyaS"  rel="noreferrer"  target="_blank" class="me-4 text-reset">
@@ -19,8 +22,9 @@ function Contact(){
       <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcRzDDMSRvCgmFnVRXqjhhqKFmfpXShbfGVgKtpKgdMFnrfJKMjMNWmjBsFmZNhPHldptVvbg"  rel="noreferrer"  target="_blank" class="me-4 text-reset">
       <i class="bi bi-envelope fa-lg m-3 black-color"></i>
             </a>
-        </div>
-    )
+    </div>
+  </section>
+    </>
 }
 
-export default Contact;
+export default Footer;
